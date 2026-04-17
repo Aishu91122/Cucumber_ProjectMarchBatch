@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+	<parameter name="uN" value="ManualTester"></parameter>
+	<parameter name="pW" value="6768@er"></parameter>
+	<parameter name="lastName" value="Manual"></parameter>
+	<parameter name="firstName" value="Admin"></parameter>
+	<parameter name="tags" value="a"></parameter>
+    <classes>
+      <class name="argumentPassing.FaceBookArguments"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+	<parameter name="uN" value="DevTester"></parameter>
+	<parameter name="pW" value="67@er"></parameter>
+	<parameter name="lastName" value="Sathish"></parameter>
+	<parameter name="firstName" value="Kumar"></parameter>
+	<parameter name="tags" value="script"></parameter>
+    <classes>
+      <class name="argumentPassing.FaceBookArguments"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test3">
+	<parameter name="uN" value="AdminTester"></parameter>
+	<parameter name="pW" value="645456456546"></parameter>
+	<parameter name="lastName" value="Karthik"></parameter>
+	<parameter name="firstName" value="Raj"></parameter>
+	<parameter name="tags" value="button"></parameter>
+    <classes>
+      <class name="argumentPassing.FaceBookArguments"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test4">
+	<parameter name="uN" value="SanityTester"></parameter>
+	<parameter name="pW" value="ssssssss"></parameter>
+	<parameter name="lastName" value="Deep"></parameter>
+	<parameter name="firstName" value="Kannan"></parameter>
+	<parameter name="tags" value="input"></parameter>
+    <classes>
+      <class name="argumentPassing.FaceBookArguments"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Test5">
+	<parameter name="uN" value="SmokeTester"></parameter>
+	<parameter name="pW" value="rrrrrrr"></parameter>
+	<parameter name="lastName" value="Automation"></parameter>
+	<parameter name="firstName" value="Admin"></parameter>
+	<parameter name="tags" value="div"></parameter>
+    <classes>
+      <class name="argumentPassing.FaceBookArguments"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

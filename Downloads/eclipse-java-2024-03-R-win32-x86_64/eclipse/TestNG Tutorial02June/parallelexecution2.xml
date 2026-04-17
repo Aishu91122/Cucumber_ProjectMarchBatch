@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="parallelExecution.MouseHover"/>
+      <class name="parallelExecution.RadioButton"/>
+      <class name="parallelExecution.RightClick"/>
+      <class name="parallelExecution.DragAndDrop"/>
+      <class name="parallelExecution.TakesScreenShot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstName" value="Developer"/>
+    <parameter name="lastName" value="Admin"/>
+    <parameter name="pW" value="6789"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="uN" value="Tester"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="groupingDemo.Groups">
+        <methods>
+          <include name="createNewAccount"/>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="allLinks"/>
+          <include name="loginModule"/>
+        </methods>
+      </class> <!-- groupingDemo.Groups -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
